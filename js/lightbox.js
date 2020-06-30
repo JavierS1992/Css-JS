@@ -1,5 +1,6 @@
 //Objeto con las propiedades del efecto lightbox
-var propLightbox={
+(function(){
+	var propLightbox={
 	imgContainer: document.getElementsByClassName('lightbox'),
 	imagen: null,
 	imagenSrc: null,
@@ -56,3 +57,5 @@ var metLightbox ={
 }
 
 metLightbox.inicio();
+
+}())
